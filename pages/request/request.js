@@ -15,7 +15,7 @@ Page({
   onLoad: function (options) {
     var that = this;
     wx.request({
-      url: app.globalData.siteBaseUrl+'/weapp/request.php', //app.globalData.siteBaseUrl为通信域名，本人在app.js定义了
+      url: app.globalData.siteBaseUrl+'/weapp/request.php', //app.globalData.siteBaseUrl是在app.js定义的通信域名
       data: {},
       header: {
         'content-type': 'application/json'

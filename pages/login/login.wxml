@@ -1,0 +1,17 @@
+<!--pages/login/login.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">微信小程序教程-网络请求</view>
+    <view class="page__desc">利用wx.login,wx.getUserInfo,wx.request完成登录流程</view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-article">
+      <view class="weui-article__h1">3rd_session:</view>
+      <view class="weui-article__section">
+        <view class="weui-article__p">
+          {{token}}
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

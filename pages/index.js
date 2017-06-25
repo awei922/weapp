@@ -5,7 +5,7 @@ Page({
                 id: 'form',
                 name: 'API',
                 open: false,
-                pages: ['request']
+                pages: ['request','login']
             },
             
         ]
