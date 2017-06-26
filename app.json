@@ -3,7 +3,8 @@
     "pages/index",
 
     "pages/request/request",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/getlocation/getlocation"
 
     
   ],

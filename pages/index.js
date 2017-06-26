@@ -3,7 +3,7 @@ Page({
         list: [
             {
                 id: 'form',
-                name: 'API',
+                name: 'DEMO',
                 open: false,
                 pages: ['request','login']
             },
