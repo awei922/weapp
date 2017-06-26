@@ -1,0 +1,22 @@
+<!--pages/uploadfile/uploadfile.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">微信小程序教程-上传文件</view>
+    <view class="page__desc">通过wx.uploadFile将本地资源上传到服务器</view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-cell">
+      <view class="weui-uploader__input-box">
+        <view class="weui-uploader__input" bindtap="chooseImage"></view>
+      </view>
+    </view>
+    <view class="weui-article">
+      <view class="weui-article__h1">图片预览：</view>
+      <view class="weui-article__section">
+        <view class="weui-article__p">
+          <image src="{{image}}"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

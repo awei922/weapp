@@ -4,8 +4,8 @@
 
     "pages/request/request",
     "pages/login/login",
-    "pages/getlocation/getlocation"
-
+    "pages/getlocation/getlocation",
+    "pages/uploadfile/uploadfile"
     
   ],
   "window": {

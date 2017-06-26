@@ -1,5 +1,4 @@
 <!--pages/getlocation/getlocation.wxml-->
-<!--pages/login/login.wxml-->
 <view class="page">
   <view class="page__hd">
     <view class="page__title">微信小程序教程-定位城市</view>
